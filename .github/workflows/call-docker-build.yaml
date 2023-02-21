@@ -71,7 +71,7 @@ jobs:
       context: .
       
       ### Dockerfile alternate name. Default is Dockerfile (relative to context path)
-      file: Containerfile
+      # file: Containerfile
 
       ### build stage to target, defaults to empty, which builds to last stage in Dockerfile
       # target:
